@@ -20,7 +20,7 @@ function fsb($path='')
     }
     $d->close();
     return <<<HTML
-<p><select name="fsb-sel">$list</select><button name="fsb-go" title="Vai alla directory selezionata">&#8677;</button>\n
+<p><select name="fsb-sel">$list</select><button name="fsb-go" title="Vai alla directory selezionata">&#8631;</button>\n
 HTML;
 }
 ?>
